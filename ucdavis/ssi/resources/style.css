@@ -162,6 +162,7 @@ a.read-more {
 
 #portal-personaltools a{
 	color:white !important;
+        z-index: 501;
 }
 #portal-searchbox {
     margin: 2px 6px 0 0;
@@ -180,6 +181,10 @@ a.read-more {
 
 #content dl.portlet a:visited {
     color: #FFFFFF
+}
+
+#content a.urlsmall {
+     font-size: 85%;
 }
 
 
@@ -234,11 +239,11 @@ div.portletHeader a{
 body {
 	margin: 0;
 	padding: 0;
-/*	background-color: #CFA21A; */
+	background-color: #D9B64C;
 	font-family: verdana,arial,sans-serif;
 	font-size: 16px;
         color: #333333;
-    background: url(images/golden-background2.jpg) no-repeat center center fixed; 
+/*    background: url(images/golden-background2.jpg) no-repeat center center fixed;*/ 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -262,7 +267,7 @@ h3 { }
 p, ul, ol {
 	margin-top: 0;
 	line-height: 150%;
-	text-align: justify;
+/*	text-align: justify; */
 }
 
 ul, ol { }
