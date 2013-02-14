@@ -1,18 +1,15 @@
 Metadata-Version: 1.1
 Name: ucdavis.ssi
-Version: 1.0
+Version: 1.2
 Summary: Diazo Template
 Home-page: http://svn.plone.org/svn/collective/
 Author: UNKNOWN
 Author-email: UNKNOWN
 License: GPL
-Description: Introduction
-        ============
+Description: ucdavis.ssi
+        =====================
         
-        Simple skeleton for a Diazo (plone.app.theming) add on with plugins.
-        
-        This product was created with ZopeSkel, and likely contains traces of nuts.
-        
+        ssi skin
         Changelog
         =========
         

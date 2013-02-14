@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.2'
 
 setup(name='ucdavis.ssi',
       version=version,
       description="Diazo Template",
-      long_description=open("README.rst").read() + "\n" +
+      long_description=open("README.md").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers

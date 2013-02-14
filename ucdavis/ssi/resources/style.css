@@ -165,7 +165,9 @@ a.read-more {
         z-index: 501;
 }
 #portal-searchbox {
-    margin: 2px 6px 0 0;
+	position: relative;
+	padding-right: 10px;
+	
 }
 
 /* red link hover */
@@ -400,16 +402,22 @@ color: white;
   }
 
 #portal-personaltools {
-float: right;
-background: #A7A6A2;
-position: relative;
-z-index: 7000;
-padding-top: 2px;
-right: 0;
-padding: 0.25em 0.5em;
-font-size: 80%;
-border-bottom-right-radius: 0.5em;
-border-bottom-left-radius: 0.5em;
+    /*float: right; */
+    background: #999999;
+   /* position: relative;*/
+    z-index: 3; /* personaltools should be above #portal-header (with z-index: 2) */
+    top: 0;
+    right: 0;
+    margin-top: -15px;
+    padding-right: 40px;
+    /*padding: 0.25em 0.5em;*/
+    font-size: 80%;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    -webkit-border-bottom-right-radius: 0.5em;
+    -webkit-border-bottom-left-radius: 0.5em;
+    -moz-border-radius-bottomleft: 0.5em;
+    -moz-border-radius-bottomright: 0.5em;
 }
 #portal-personaltools dd {
     background: #A7A6A2;
