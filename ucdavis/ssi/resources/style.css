@@ -11,8 +11,8 @@ Released for free under a Creative Commons Attribution 2.5 License
 }
 
 .header-bar-container {
-	width:100%;
-	padding-left: 30px;
+	width:98%;
+	padding-left: 2%;
 	background:#fff;
 	}
 
@@ -81,11 +81,12 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 	z-index: 5100;
 }
 #slides-3 {
-	margin-left:1015px;
+	margin-left: 1000px;
 /* okay really. . .this is silly */
-    margin-top: -220px; 
-	float: left;
+    margin-top: -224px;
 	height: 220px;
+	border-bottom: 4px solid white;
+
 }
 div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572330a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a6e657773.portletWrapper dl.portlet {
 	background-color: transparent;
@@ -228,8 +229,8 @@ div.portletHeader a{
     border-color: #4C6794;
 }
 
-.searchSection label{ color: #FFF; }
-.searchSection label:hover { color: #AAA; }
+.searchSection label{ color: #002855; }
+.searchSection label:hover { color: #999999; }
 
 /*****************************************************/
 .banner {width:1000px; :"trebuchet ms",arial,sans-serif; padding:0px;margin:0px;}
