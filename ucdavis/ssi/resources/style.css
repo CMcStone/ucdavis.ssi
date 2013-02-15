@@ -80,9 +80,9 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 	border-right: 4px solid white;
 }
 #slides-2 {
-/*    margin-left: 217px; */
+    margin-left: 221px;
 	max-width: 778px;
-	z-index: 5100;
+	z-index: 300;
 }
 #slides-3 {
 /*	margin-left: 1000px; */
