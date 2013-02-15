@@ -60,7 +60,7 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 
 
 #slides 	{
-	width: 100%;
+	
 	float: top;
 /*	background-image:url('images/goldbackbig.png') */
 /*	margin: auto; */
@@ -71,13 +71,16 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 	border-bottom: 4px solid white;
 	border-top: 4px solid white;
 }
+#slides-row {
+	width: 100%;
+}
 #slides-1 {
 	float: left;
 	border-left: 4px solid white;
 	border-right: 4px solid white;
 }
 #slides-2 {
-/*	margin-left: 217px; */
+/*    margin-left: 217px; */
 	max-width: 778px;
 	z-index: 5100;
 }
@@ -90,6 +93,11 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 	border-left: 4px solid white;
 	border-right: 4px solid white;
 
+}
+.statecap{
+	max-width: 100%; 
+	height:auto;
+	width: auto\9; /*ie8 */ 
 }
 .uclogo {
     max-width: 100%; 
