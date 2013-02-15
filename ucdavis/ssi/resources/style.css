@@ -60,33 +60,42 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 
 
 #slides 	{
+	width: 100%;
 	float: top;
 /*	background-image:url('images/goldbackbig.png') */
 /*	margin: auto; */
-	height: 225px;
+	height: 220px;
     margin-top:0px;
 	margin-bottom:0px;
 	font-size:1.0em;
+	border-bottom: 4px solid white;
+	border-top: 4px solid white;
 }
 #slides-1 {
 	float: left;
-	border: 4px solid white;
-	height:220px;
+	border-left: 4px solid white;
+	border-right: 4px solid white;
 }
 #slides-2 {
-	margin-left: 217px;
-	width: 778px;
-	border: 4px solid white;
-	height: 220px;
+/*	margin-left: 217px; */
+	max-width: 778px;
 	z-index: 5100;
 }
 #slides-3 {
-	margin-left: 1000px;
+/*	margin-left: 1000px; */
 /* okay really. . .this is silly */
-    margin-top: -224px;
-	height: 220px;
-	border-bottom: 4px solid white;
+    max-width: 100%;
+    height:auto;
+    float:right;
+	border-left: 4px solid white;
+	border-right: 4px solid white;
 
+}
+.uclogo {
+    max-width: 100%; 
+	height:auto;
+	width: auto\9; /*ie8 */ 
+	padding-top:20px;
 }
 div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572330a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a6e657773.portletWrapper dl.portlet {
 	background-color: transparent;
@@ -630,6 +639,10 @@ background-color: white;
 	text-decoration: none;
 	color: #FFFFFF;
 
+}
+/*FacultyStaffDirectory*/
+.icons-on table.listing td {
+    line-height: 1.5em;
 }
  	 
 
