@@ -46,7 +46,8 @@ Released for free under a Creative Commons Attribution 2.5 License
 	
 }
 #header-wrapper {
-/*	width:1000px; */
+	margin-left:30px;
+	margin-right:30px;
 	height: 228px;
 }
 
