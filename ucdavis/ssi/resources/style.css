@@ -90,7 +90,7 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 #slides-3 {
 /*	margin-left: 1000px; */
 /* okay really. . .this is silly */
-    margin-top: -232px;
+    margin-top: -233px;
     max-width: 100%;
     height:auto;
     float:right;
@@ -402,7 +402,7 @@ color: white;
   }
 #portal-globalnav ul li a {
   background-color:#002855;
- border-top:1px solid #fff;
+  border-top:1px solid #fff;
   height:auto
   padding:0.5em 1.5em 0.5em 1em;
   vertical-align:top;
