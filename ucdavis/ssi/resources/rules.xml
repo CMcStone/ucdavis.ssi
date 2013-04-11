@@ -41,7 +41,8 @@
 css:content="#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572330a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a6e657773" /-->
 
 	
-		
+    <drop css:content="#content" if-path="/"  />
+    <drop css:content="#portal-breadcrumbs" if-path="/" />		
     <!--replace theme='//*[@id="slides"]' content='//*[@id="portlets-above"]'  /-->
     <!--copy content='//*[@id="portlets-above"]' theme='//*[@id="slides"]' /--> 
      
@@ -77,7 +78,7 @@ css:content="#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e4865616
 	<!--copy attributes="href title" css:content='#portal-logo' css:theme='#logo h1 a' /-->
 	<drop content='//*[@id="portal-colophon"]' />
 
-    
+    <drop content='//*[@id="content-core"]' if-path="/" />
     <drop theme='//*[@id="slogan"]' />
     <drop theme='//*[@id="rss"]' />
     <!--theme href="index4.html" if-path="/DSSHR/ " css:if-content="#visual-portal-wrapper"/-->

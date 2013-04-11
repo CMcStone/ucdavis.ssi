@@ -196,6 +196,26 @@ a.read-more {
 }
 
 /* red link hover */
+div#carousel-1816896060.carousel .carousel-banners {
+   margin:auto;
+}
+
+div#carousel-1816896060.carousel .carousel-text{
+   background-color: rgb(221,221,221);
+   background-color: rgba(221,221,221,.5);
+   text-align: right;
+}
+
+
+.carousel-pager {
+    float: right;
+    padding-right: 20px;
+}
+.carousel-pager .carousel-pager-item-active{
+   background-color: #205C90;
+}
+
+   
 
 #content a:visited {
     border-bottom: 0.1em solid #CCCCCC;
@@ -374,7 +394,7 @@ z-index: 5;
 }
 #portal-globalnav li a {
 display: inline-block;
-padding: 0.5em 2em 1em 1em;
+padding: 0.5em 1em 1em 1em;
 line-height: 1.7em;
 background: #002855;
 min-width: 6em;
